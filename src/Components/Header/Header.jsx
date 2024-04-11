@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -13,12 +13,15 @@ function Header() {
                   <Navbar.Brand href="/" className="logo">
                      <img src={logo} height={"100%"} alt="logo" />
                   </Navbar.Brand>
+                  <div className="logoText">
+                     <p>Dr Basila's Homoeopathic Clinic</p>
+                  </div>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" expand="lg" />
                   <Navbar.Collapse id="basic-navbar-nav">
                      <Nav className="ms-auto align-items-center">
                         <Link to="/" className="list-item text-decoration-none">
                            Home
-                        </Link> 
+                        </Link>
                         <Link
                            to="/about"
                            className="list-item text-decoration-none"

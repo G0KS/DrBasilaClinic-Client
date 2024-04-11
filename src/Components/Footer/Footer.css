@@ -1,0 +1,29 @@
+.footerContainer {
+   height: 400px;
+   background-color: rgb(9, 158, 101);
+   padding: 50px 0px;
+}
+
+.logoContainer {
+   height: 250px;
+   width: 100%;
+   text-align: center;
+}
+
+.logoContainer img {
+   height: 100%;
+   border-radius: 50%;
+}
+
+.addressContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+}
+
+.addressContainer a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
