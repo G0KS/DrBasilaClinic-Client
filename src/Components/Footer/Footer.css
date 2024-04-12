@@ -1,11 +1,13 @@
 .footerContainer {
    height: 400px;
    background-color: rgb(9, 158, 101);
-   padding: 50px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .logoContainer {
-   height: 250px;
+   height: 200px;
    width: 100%;
    text-align: center;
 }
@@ -25,5 +27,9 @@
 .addressContainer a {
    text-decoration: none;
    color: white;
-   font-size: 20px;
+   font-size: 1rem;
+}
+
+.addressContainer a:hover{
+   text-shadow: 1px 1px rgba(255, 255, 255, 0.422);
 }

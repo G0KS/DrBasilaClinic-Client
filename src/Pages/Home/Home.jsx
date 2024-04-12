@@ -15,16 +15,13 @@ function Home() {
    return (
       <>
          <section className="introContainer">
-            <div className="container d-flex py-5">
-               <div className="introImg">
+            <div className="container d-sm-flex py-5">
+               <div className="introImg w-100">
                   <img src={introImage} alt="intro" />
                </div>
                <div className="introText">
                   <h2>
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     Modi consequuntur minima ea temporibus accusantium eum ut!
-                     Dolorum aperiam, laudantium quis, rerum impedit laboriosam
-                     vel possimus provident numquam, molestias officia repellat?
+                  Welcome to Dr. Basila's Homoepathic Clinic, your destination for holistic healing through homeopathy.
                   </h2>
                </div>
             </div>
