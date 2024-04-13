@@ -1,27 +1,36 @@
 .introContainer {
-   height: 85vh;
+   height: 70vh;
+}
+
+.introBox {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .introImg {
-   height: 450px;
    width: 100%;
 }
 
 .introImg img {
-   /* height: 100%; */
    width: 100%;
 }
 
 .introText {
+   background-color: antiquewhite;
    display: flex;
    align-items: center;
    text-align: center;
 }
 
 .introText h2 {
-   font-size: 35px;
+   width: 100%;
    font-weight: 600;
    color: rgb(9, 158, 101);
+}
+
+.heroBox{
+   display: flex;
 }
 
 .heroContent {
@@ -97,4 +106,18 @@
    text-shadow: 4px 4px rgba(9, 158, 101, 0.219);
    font-size: 50px;
    margin: 40px;
+}
+
+@media screen and (max-width: 600px) {
+   .introBox {
+      display: block;
+   }
+
+   .banner h1 {
+      font-size: 1.5rem;
+   }
+
+   .heroBox {
+      display: block;
+   }
 }

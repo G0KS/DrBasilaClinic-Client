@@ -1,5 +1,5 @@
 import heroImage from "../../assets/homeImage.jpg";
-import introImage from "../../assets/logo.png";
+import introImage from "../../assets/logo-nobg.png";
 import img1 from "../../assets/Image 1.jpeg";
 import img2 from "../../assets/Image 2.jpeg";
 import img3 from "../../assets/Image 4.jpg";
@@ -15,24 +15,25 @@ function Home() {
    return (
       <>
          <section className="introContainer">
-            <div className="container d-sm-flex py-5">
-               <div className="introImg w-100">
+            <div className="introBox container py-5 ">
+               <div className="introImg">
                   <img src={introImage} alt="intro" />
                </div>
                <div className="introText">
-                  <h2>
-                  Welcome to Dr. Basila's Homoepathic Clinic, your destination for holistic healing through homeopathy.
+                  <h2 className="fs-1">
+                     Welcome to Dr. Basila's Homoepathic Clinic, your
+                     destination for holistic healing through homeopathy.
                   </h2>
                </div>
             </div>
-            <div className="banner">
-               <h1 className="text-center">
-                  Better Life Through Better Treatment
-               </h1>
-            </div>
          </section>
+         <div className="banner">
+            <h1 className="text-center">
+               Better Life Through Better Treatment
+            </h1>
+         </div>
          <section className="heroContainer">
-            <div className="container py-5 d-flex gap-5 align-items-center">
+            <div className="heroBox container py-5 gap-5">
                <div className="heroContent text-center d-flex align-items-center">
                   <h2>
                      Homeopathy is safest with more reliable approach for
