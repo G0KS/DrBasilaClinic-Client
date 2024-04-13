@@ -18,7 +18,7 @@ function Header() {
                   </div>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" expand="lg" />
                   <Navbar.Collapse id="basic-navbar-nav">
-                     <Nav className="ms-auto align-items-center">
+                     <Nav className="ms-auto text-center">
                         <Link to="/" className="list-item text-decoration-none">
                            Home
                         </Link>

@@ -6,7 +6,7 @@ import "./Footer.css";
 function Footer() {
    return (
       <>
-         <div className="footerContainer d-flex">
+         <div className="footerContainer d-sm-flex">
             <div className="logoContainer container">
                <img src={logo} alt="logo" />
             </div>
@@ -42,9 +42,7 @@ function Footer() {
                      @dr_basila_clinic
                   </a>
                </div>
-               <div className="d-flex">
-                  
-               </div>
+               <div className="d-flex"></div>
             </div>
          </div>
       </>

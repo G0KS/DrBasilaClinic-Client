@@ -1,9 +1,6 @@
 .footerContainer {
-   height: 400px;
    background-color: rgb(9, 158, 101);
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   padding: 50px;
 }
 
 .logoContainer {
@@ -18,6 +15,7 @@
 }
 
 .addressContainer {
+   margin-top: 50px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -30,6 +28,6 @@
    font-size: 1rem;
 }
 
-.addressContainer a:hover{
+.addressContainer a:hover {
    text-shadow: 1px 1px rgba(255, 255, 255, 0.422);
 }

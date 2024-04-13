@@ -1,11 +1,6 @@
 .introContainer {
    height: 70vh;
-}
-
-.introBox {
    display: flex;
-   justify-content: center;
-   align-items: center;
 }
 
 .introImg {
@@ -17,7 +12,6 @@
 }
 
 .introText {
-   background-color: antiquewhite;
    display: flex;
    align-items: center;
    text-align: center;
@@ -38,13 +32,11 @@
 }
 
 .heroContent h2 {
-   font-size: 35px;
    font-weight: 600;
    color: rgb(9, 158, 101);
 }
 
 .heroImg {
-   height: 360px;
    border-radius: 18px;
    overflow: hidden;
 }
@@ -104,12 +96,12 @@
 .aboutText {
    color: rgb(9, 158, 101);
    text-shadow: 4px 4px rgba(9, 158, 101, 0.219);
-   font-size: 50px;
+   font-size: 45px;
    margin: 40px;
 }
 
 @media screen and (max-width: 600px) {
-   .introBox {
+   .introContainer {
       display: block;
    }
 
@@ -120,4 +112,9 @@
    .heroBox {
       display: block;
    }
+
+   .aboutContainer{
+      height: 280vh;
+   }
+
 }

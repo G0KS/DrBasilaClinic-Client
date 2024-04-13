@@ -14,17 +14,15 @@ import "./Home.css";
 function Home() {
    return (
       <>
-         <section className="introContainer">
-            <div className="introBox container py-5 ">
-               <div className="introImg">
-                  <img src={introImage} alt="intro" />
-               </div>
-               <div className="introText">
-                  <h2 className="fs-1">
-                     Welcome to Dr. Basila's Homoepathic Clinic, your
-                     destination for holistic healing through homeopathy.
-                  </h2>
-               </div>
+         <section className="introContainer container py-5">
+            <div className="introImg">
+               <img src={introImage} alt="intro" />
+            </div>
+            <div className="introText">
+               <h2 className="fs-1">
+                  Welcome to Dr. Basila's Homoepathic Clinic, your destination
+                  for holistic healing through homeopathy.
+               </h2>
             </div>
          </section>
          <div className="banner">
@@ -32,10 +30,10 @@ function Home() {
                Better Life Through Better Treatment
             </h1>
          </div>
-         <section className="heroContainer">
-            <div className="heroBox container py-5 gap-5">
+         <section className="heroContainer my-5">
+            <div className="heroBox container gap-5">
                <div className="heroContent text-center d-flex align-items-center">
-                  <h2>
+                  <h2 className="fs-1 pb-5">
                      Homeopathy is safest with more reliable approach for
                      ailments and it has withstood the assaults of established
                      medical practice for over 100 years
