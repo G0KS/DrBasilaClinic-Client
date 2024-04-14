@@ -12,6 +12,7 @@
    font-size: 3rem;
    font-weight: 600;
    color: rgb(9, 158, 101);
+   text-shadow: 5px 5px rgba(9, 158, 101, 0.269);
 }
 
 .serviceCard {
@@ -52,4 +53,35 @@
 
 .serviceCard:hover .overlay {
    opacity: 0.7;
+}
+
+.list-group {
+   width: 100%;
+}
+
+.list-group-item {
+   color: #fff;
+   text-shadow: 2px 2px rgb(9, 158, 101);
+   background-color: rgba(9, 158, 101, 0.402);
+   border: none;
+}
+
+.serviceImg{
+   padding: 20px;
+   transition: all 0.3s;
+}
+
+.serviceImg img{
+   border-radius: 7px;
+   width: 100%;
+}
+
+.serviceImg:hover{
+   transform:scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+   .list-group {
+      width: 90%;
+   }
 }
