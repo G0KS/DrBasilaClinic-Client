@@ -1,5 +1,4 @@
 .introContainer {
-   height: 70vh;
    display: flex;
 }
 
@@ -23,7 +22,7 @@
    color: rgb(9, 158, 101);
 }
 
-.heroBox{
+.heroBox {
    display: flex;
 }
 
@@ -64,7 +63,6 @@
 }
 
 .aboutContainer {
-   height: 110vh;
    background: rgb(255, 255, 255);
    background: linear-gradient(
       180deg,
@@ -74,22 +72,25 @@
 }
 
 .imgGrp {
-   height: 350px;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    gap: 30px 20px;
 }
 
-.imgGrp img {
+.imgDiv {
+   height: 350px;
+}
+
+.imgDiv img {
    height: 100%;
    border-radius: 18px;
    border: 5px solid white;
    transition: all 0.3s;
 }
 
-.imgGrp img:hover {
-   transform: scale(1.1);
+.imgDiv img:hover {
+   transform: scale(1.05);
    border: none;
 }
 
@@ -113,8 +114,12 @@
       display: block;
    }
 
-   .aboutContainer{
-      height: 280vh;
+   .imgDiv{
+      width: 90%;
+      height: auto;
    }
 
+   .imgDiv img{
+      width: 100%;
+   }
 }

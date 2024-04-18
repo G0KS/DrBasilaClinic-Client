@@ -20,7 +20,7 @@ function About() {
             </div>
          </div>
          <h1 className="text-center pt-5 fw-bold text-light">
-            Nurturing Health Naturally: Your Trusted Partner in Homeopathic Care
+            Nurturing Health Naturally: Your Trusted Partner in Homoeopathic Care
          </h1>
       </section>
    );

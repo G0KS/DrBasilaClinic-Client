@@ -5,7 +5,7 @@ import "./Footer.css";
 
 function Footer() {
    return (
-      <>
+      <section>
          <div className="footerContainer d-sm-flex">
             <div className="logoContainer container">
                <img src={logo} alt="logo" />
@@ -45,7 +45,7 @@ function Footer() {
                <div className="d-flex"></div>
             </div>
          </div>
-      </>
+      </section>
    );
 }
 

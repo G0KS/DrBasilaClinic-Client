@@ -14,14 +14,14 @@ import "./Home.css";
 function Home() {
    return (
       <>
-         <section className="introContainer container py-5">
+         <section className="introContainer container py-3">
             <div className="introImg">
                <img src={introImage} alt="intro" />
             </div>
             <div className="introText">
                <h2 className="fs-1">
-                  Welcome to Dr. Basila's Homoepathic Clinic, your destination
-                  for holistic healing through homeopathy.
+                  Welcome to Dr. Basila's Homoeopathic Clinic, your destination
+                  for holistic healing through homoeopathy.
                </h2>
             </div>
          </section>
@@ -34,9 +34,8 @@ function Home() {
             <div className="heroBox container gap-5">
                <div className="heroContent text-center d-flex align-items-center">
                   <h2 className="fs-1 pb-5">
-                     Homeopathy is safest with more reliable approach for
-                     ailments and it has withstood the assaults of established
-                     medical practice for over 100 years
+                     Homoeopathy is safest with more reliable approach for
+                     ailments
                   </h2>
                </div>
                <div className="heroImg text-center">
@@ -46,15 +45,27 @@ function Home() {
          </section>
          <section className="aboutContainer">
             <h1 className="aboutText text-center fw-bold">
-               Healing naturally with homeopathy
+               Healing naturally with homoeopathy
             </h1>
             <div className="imgGrp container">
-               <img src={img1} alt="img 1" />
-               <img src={img2} alt="img 2" />
-               <img src={img3} alt="img 3" />
-               <img src={img4} alt="img 4" />
-               <img src={img5} alt="img 5" />
-               <img src={img6} alt="img 6" />
+               <div className="imgDiv">
+                  <img src={img1} alt="img 1" />
+               </div>
+               <div className="imgDiv">
+                  <img src={img2} alt="img 2" />
+               </div>
+               <div className="imgDiv">
+                  <img src={img3} alt="img 3" />
+               </div>{" "}
+               <div className="imgDiv">
+                  <img src={img4} alt="img 4" />
+               </div>
+               <div className="imgDiv">
+                  <img src={img5} alt="img 5" />
+               </div>
+               <div className="imgDiv">
+                  <img src={img6} alt="img 6" />
+               </div>{" "}
             </div>
          </section>
       </>
